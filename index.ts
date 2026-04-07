@@ -15,3 +15,10 @@ function media(a: number, b: number, c: number): number {
 }
 
 console.log("Média:", media(7, 8, 9));
+
+function mostrarData(): void {
+    const hoje: Date = new Date();
+    console.log("Data atual:", hoje.toLocaleDateString());
+}
+
+mostrarData();
